@@ -1,0 +1,33 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px ;
+    position: relative;
+    overflow: hidden;
+}
+
+main h1{
+    font-size: 5.0rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+main ul{
+    font-size: 4.0rem;
+    font-weight: 500;
+}
+
+main li{
+    list-style-type: disc;
+    display: flex;
+    align-items: center;
+}
+
+li::before {
+    content: '•'; /* Adds a custom bullet or marker */
+    font-size: 5.0rem;
+    margin-right: 15px; /* Space between marker and text */
+    color: #70D3ED; /* Customize color as needed */
+}
+
+

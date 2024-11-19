@@ -1,0 +1,21 @@
+.footer{
+    background-color: #161619;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav{
+    padding: 20px 0;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li{
+    list-style: none;
+}
